@@ -1,0 +1,16 @@
+[
+  {
+    "id": "demo-1",
+    "title": "موقع ذادريم",
+    "description": "أضف هنا أول رابط لك.",
+    "url": "https://example.com",
+    "icon": "globe"
+  },
+  {
+    "id": "demo-2",
+    "title": "قناتك أو محتواك",
+    "description": "يمكنك استبدال هذا الرابط من ملف links.json.",
+    "url": "https://youtube.com",
+    "icon": "youtube"
+  }
+]

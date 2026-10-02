@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="ذادريم — مدونة وروابط مختارة بتصميم فاخر ثلاثي الأبعاد.">
+  <title>ذادريم | مدونة وروابط</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+  <header class="topbar">
+    <a class="brand" href="index.html"><span class="brand-mark">ذ</span><span>ذادريم</span></a>
+    <nav><a href="#links">الروابط</a><a href="#about">عن المدونة</a><a class="admin-link" href="admin.html">الإدارة</a></nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow"><i data-lucide="sparkles"></i> مساحة رقمية هادئة</span>
+        <h1>أفكار، روابط، ومحتوى<br><span>تستحق وقتك.</span></h1>
+        <p>ذادريم هي مساحتك لاكتشاف الروابط والمحتوى الذي تختاره بعناية، في تجربة بصرية فاخرة ومريحة للعين.</p>
+        <a class="primary-btn" href="#links">استكشف الروابط <i data-lucide="arrow-left"></i></a>
+      </div>
+      <div class="hero-orb" aria-hidden="true">
+        <div class="orb-inner"><span>ذادريم</span><small>THE DREAM SPACE</small></div>
+      </div>
+    </section>
+
+    <section id="links" class="section">
+      <div class="section-head">
+        <div><span class="eyebrow">مختارات</span><h2>الروابط والمحتوى</h2></div>
+        <div class="search"><i data-lucide="search"></i><input id="search" placeholder="ابحث في الروابط..."></div>
+      </div>
+      <div id="linkGrid" class="link-grid"><div class="loading">جاري تحميل الروابط...</div></div>
+    </section>
+
+    <section id="about" class="about glass">
+      <div><span class="eyebrow">عن ذادريم</span><h2>مكان بسيط لمحتوى مميز.</h2></div>
+      <p>يمكن لمالك الموقع إضافة الروابط وتعديلها وحذفها من لوحة الإدارة. الزوار يشاهدون المحتوى ويتنقلون إليه بسهولة من خلال البطاقات والأيقونات.</p>
+    </section>
+  </main>
+
+  <footer><span>© <span id="year"></span> ذادريم</span><span>مصمم للويب العصري</span></footer>
+  <script src="assets/config.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
